@@ -1,0 +1,30 @@
+{
+  "name": "storybook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/app.bundle.js",
+  "scripts": {
+    "start": "webpack --watch",
+    "storybook": "start-storybook -p 9001 -c .storybook",
+    "build": "build-storybook --output-dir ./dist",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "babel": "babel src -d dist --copy-files"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@storybook/react": "^3.4.8",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "node-sass": "^4.9.2",
+    "dist": "file:dist",
+    "sass-loader": "^7.0.3"
+  },
+  "dependencies": {
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
+  }
+}

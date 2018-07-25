@@ -5,7 +5,7 @@
   "main": "dist/app.bundle.js",
   "scripts": {
     "start": "webpack --watch",
-    "prepare": "webpack",
+    "prepare": "NODE_ENV=production webpack",
     "storybook": "start-storybook -p 9001 -c .storybook",
     "build": "build-storybook --output-dir ./dist",
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -21,7 +21,6 @@
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
     "node-sass": "^4.9.2",
-    "dist": "file:dist",
     "sass-loader": "^7.0.3"
   },
   "dependencies": {

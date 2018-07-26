@@ -2,6 +2,15 @@
 Testing shared component functionality. Most of the functionality is derived from [Sharing React components between separate projects, self hosting with git, installing with yarn/npm](https://medium.com/@Powderham/sharing-react-components-between-separate-projects-self-hosting-with-git-installing-with-yarn-npm-d3275b64239c)
 and [this one](https://medium.com/dailyjs/building-a-react-component-with-webpack-publish-to-npm-deploy-to-github-guide-6927f60b3220)
 
+### Local Development
+Run the following script to develope locally:
+```bash
+$ npm start
+```
+You can build the production bundle locally with the following command (it will be placed in a `dist` folder at the root of the project):
+```
+$ npm run build
+```
 
 ### Installation
 The npm cli provides functionality for installing packages directly from a git remote host https://docs.npmjs.com/cli/install. 
@@ -48,14 +57,4 @@ The project utilizes [webpack](https://webpack.js.org/) in order to build and co
   },
   // ...
 }
-```
-
-### Local Development
-Run the following script to develope locally:
-```bash
-$ npm start
-```
-You can build the production bundle locally with the following command (it will be placed in a `dist` folder at the root of the project):
-```
-$ npm run build
 ```

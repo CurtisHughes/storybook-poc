@@ -2,7 +2,16 @@
 This is how you would import and use this component:
 
 ```javascript
-import { Button } from 'storybook-poc'
+import React, { Component } from 'react';
+import { Button } from 'storybook-poc';
 
-<Button>with text</Button>
+export default class App extends Component {
+  render () {
+    return (
+      <div>
+        <Button>Submit</Button>
+      </div>
+    );
+  }
+}
 ```

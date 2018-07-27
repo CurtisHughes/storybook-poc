@@ -3,7 +3,7 @@ Testing shared component functionality. Most of the functionality is derived fro
 and [this one](https://medium.com/dailyjs/building-a-react-component-with-webpack-publish-to-npm-deploy-to-github-guide-6927f60b3220)
 
 ### Local Development
-Run the following script to develope locally:
+Run the following script to develop locally:
 ```bash
 $ npm start
 ```

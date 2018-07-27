@@ -9,7 +9,7 @@ export default class App extends Component {
   render () {
     return (
       <div>
-        <Button>Submit</Button>
+        <Button onClick={() => console.log('clicked')}>Submit</Button>
       </div>
     );
   }

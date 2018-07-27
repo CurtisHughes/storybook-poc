@@ -22,7 +22,17 @@ module.exports = {
                 test: /\.tsx?$/,
                 use: 'ts-loader',
                 exclude: /node_modules/
-            }
+            },
+            {
+                test: /\.tsx?$/,
+                enforce: 'pre',
+                loader: 'tslint-loader',
+                options: {
+                    failOnHint: true,
+                    tsConfigFile: require('./tslint.json')
+                },
+                exclude: /node_modules/
+            },
         ]
     },
     resolve: {

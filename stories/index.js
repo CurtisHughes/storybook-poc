@@ -28,7 +28,7 @@ storiesOf('OpeningScript', module)
         openingScriptText={'Hello! My name is {{technicianFirstName}} and I will be your ATT Protech. Am I speaking with {{customerFirstName}}?'}
     />
   ))
-  .add('with customer first name and technician first name', () => (
+  .add('with all info', () => (
     <OpeningScript
         customerFirstName={'fName'}
         customerLastName={'lName'}

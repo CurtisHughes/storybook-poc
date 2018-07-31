@@ -1,8 +1,10 @@
+@import '../../common/styles/palette';
+
 .openingScript {
     padding: 20px;
     font-size: 16px;
-    box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 4px 0px;
-    background-color: #fff;
+    box-shadow: $onEx-activity-card-shadow 0px 0px 4px 0px;
+    background-color: $onEx-section-background;
     border-radius: 6px;
     .openingScriptItem {
       display: flex;

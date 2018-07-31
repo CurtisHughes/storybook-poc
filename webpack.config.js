@@ -19,6 +19,12 @@ module.exports = {
                 use: ['style-loader', 'css-loader', 'sass-loader']
             },
             {
+                test: /\.(png|jp(e*)g|svg)$/,
+                use: [{
+                    loader: 'url-loader',
+                }]
+            },
+            {
                 test: /\.tsx?$/,
                 use: 'ts-loader',
                 exclude: /node_modules/

@@ -1,0 +1,27 @@
+.openingScript {
+    padding: 20px;
+    font-size: 16px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 4px 0px;
+    background-color: #fff;
+    border-radius: 6px;
+    .openingScriptItem {
+      display: flex;
+      line-height: 1.5em;
+      .openingScriptIcon {
+        display: inline-block;
+        background: url(./OpeningClosingScript.svg) center center no-repeat;
+        width: 40px;
+        height: 40px;
+        background-size: 40px 40px;
+        margin-right: 10px;
+        min-width: 40px;
+        min-height: 40px;
+      }
+      span {
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: 5px;
+      }
+    }
+  }
+  

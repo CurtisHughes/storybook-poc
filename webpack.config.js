@@ -5,7 +5,7 @@ const src = path.resolve(__dirname, 'src');
 
 // Webpack configuration
 module.exports = {
-    entry: path.join(src, 'index.js'),
+    entry: path.join(src, 'index.ts'),
     output: {
         path: dist,
         filename: 'app.bundle.js',
